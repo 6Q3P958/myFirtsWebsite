@@ -1,0 +1,148 @@
+/*main*/
+* {
+    box-sizing: border-box;
+    padding: 0px ;
+    margin: 0px;
+
+}
+
+body {
+    font-family: courier, 'Merriweather';
+}
+
+h1 {
+    font-size: 75px;
+    padding-bottom: 50px;
+    margin: 0px;
+    font-family: 'Merriweather';
+}
+
+h2 {
+    font-size: 55px;
+    color: #000000;
+    padding-bottom: 30px ;
+    margin: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Merriweather';
+
+}
+
+h3 {
+    font-size: 40px;
+    color: #ff0099;
+    padding: 0px ;
+    margin: 0px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    font-family: 'consolas';
+
+}
+
+h4 {
+    font-size: 35px;
+    color: #ff0099;
+    padding: 0px ;
+    margin: 0px;
+
+
+}
+
+h5 {
+    font-size: 30px;
+    color: black;
+    padding: 0px ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: normal;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+    padding: 0px ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+/*header*/
+
+.navbar {
+    background-color: #333333;
+    color: #ff0099;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: baseline;
+    height: 80px;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+img.primar-icon {
+    align-items: right;
+    height: 60px;
+    width: 60px;    
+}
+
+a.logo {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.nav-list .list-item {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar a {
+    color: #ff0099;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:visited {
+    color: rgb(73, 193, 214);
+}
+
+
+
+
+/*section*/
+section {
+    box-sizing: border-box;
+    padding-top: 7%;
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+
+}
+
+/*dots*/
+.dot .dot {
+    height: 3px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin:0 7px;
+  }
+
+.dot {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
