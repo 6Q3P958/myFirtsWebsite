@@ -54,6 +54,7 @@ h5 {
     padding-top: 1%;
     padding-bottom: 1%;
     font-weight: normal;
+    text-align: justify;
 }
 
 p {
@@ -62,6 +63,7 @@ p {
     padding: 0px ;
     padding-top: 1%;
     padding-bottom: 1%;
+    text-align: justify;
 }
 
 
